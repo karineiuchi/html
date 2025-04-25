@@ -1,0 +1,130 @@
+/*
+=============
+     GERAL
+=============
+*/
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+
+body {
+    color: #888888;
+    font-family: 'Comfortaa','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+p {
+    line-height: 130%;
+
+}
+section h1 {
+    color: #000000;
+    text-align: center;
+
+}
+section h2{
+    color: #000000;
+    text-align: center;
+}
+img {
+    max-width: 100%;
+    
+}
+
+
+/* =============
+   ESPECÍFICO
+   =============
+*/
+header ul li {
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+section.header {
+    text-align: center;
+}
+
+section.header p button{
+    background-color: #0E8388;
+    border: none;
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 10px 0 50px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    border-radius: 20px;
+}
+main {
+   /* padding: 20px; */
+}
+header ul button{
+    background-color: #0E8388;
+    border: none;
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 10px 0 50px;
+    padding: center;
+    font-size: 1rem;
+    border-radius: 25px;
+}
+
+section.products img{
+    max-width: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section.products {
+    text-align: center;
+}
+section.products{
+     list-style: flex; 
+     align-items: center;
+}
+section.rodape{
+    margin: 10px 0 50px;
+    padding: 10px 10px;
+}
+section.products{
+    background-color: #CBE4DE; /* Cor de fundo */
+    color: #888888; /* Cor do texto */
+    text-align: center; /* Centralizar o texto */
+    padding: 20px; /* Espaçamento interno */
+    bottom: 0;
+    width: 100%;
+    
+}
+
+section.products ul li{
+    background: white;
+    margin: 10px;
+}
+section.texto{
+    margin-right: 5vw;
+}
+section.texto {
+    margin-right: 5vw;
+}
+footer {
+    background-color: #CBE4DE; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centralizar o texto */
+    padding: 20px; /* Espaçamento interno */
+    bottom: 0;
+    width: 100%;
+  }
+  section.products {
+    padding: center;
+  }
+  @media (win-width: 990px) {
+    heaser nav{
+        display: flex;
+        justify-content: space-between;
+        padding: 4vw;
+    }
+  }
+
